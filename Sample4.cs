@@ -1,5 +1,5 @@
 		int[] numbers = { 10, 20, 30 };
-        var actions = new List<Action>();
+        IList<Action> actions = new List<Action>();
 
         foreach (var n in numbers)
         {
